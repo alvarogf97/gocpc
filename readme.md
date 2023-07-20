@@ -40,7 +40,7 @@ move gocpc.exe \Windows\system32\gocpc.exe
 
 ```cmd
 curl https://github.com/alvarogf97/gocpc/releases/download/v0.0.1/gocpc.exe --output gocpc
-mv gocpc /usr/bin
+mv gocpc /usr/bin/gocpc
 ```
 
 # How to use it
