@@ -29,14 +29,18 @@ make build.linux
 
 ### Windows
 
+> **_NOTE:_**  Open CMD as administrator for moving the file to system32 folder
+
 ```cmd
-make build.windows
+curl -LO https://github.com/alvarogf97/gocpc/releases/download/v0.0.1/gocpc.exe
+move gocpc.exe \Windows\system32\gocpc.exe
 ```
 
 ### Linux
 
 ```cmd
-make build.linux
+curl https://github.com/alvarogf97/gocpc/releases/download/v0.0.1/gocpc.exe --output gocpc
+mv gocpc /usr/bin
 ```
 
 # How to use it
